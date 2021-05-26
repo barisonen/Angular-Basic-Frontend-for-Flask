@@ -1,0 +1,20 @@
+<h1>Baris' Online Library</h1>
+<nav>
+  <a class="button" routerLink="/authors-list" routerLinkActive="activebutton">get authors</a> |
+  <a class="button" routerLink="/titles-list" routerLinkActive="activebutton">get titles</a>
+</nav>
+<router-outlet></router-outlet>
+
+<div style="display: none;">
+<!-- This HTML represents the initial state for the tutorial. It is not intended to appear in the app. -->
+<app-authors-list></app-authors-list>
+<app-titles-list></app-titles-list>
+
+<!-- This HTML snippet is for when the user first adds the routerlink navigation. -->
+<nav>
+  <a class="button" routerLink="/authors-list">Crisis Center</a> |
+  <a class="button" routerLink="/titles-list">Heroes</a>
+</nav>
+
+
+</div>
